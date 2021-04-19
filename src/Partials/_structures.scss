@@ -11,6 +11,9 @@
 .container_l{
   display: flex;
   & .box{
+    display: flex;
+    flex-direction: column;
     flex-basis: 33.3%;
+    margin: 40px 0;
   }
 }

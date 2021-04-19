@@ -3,19 +3,12 @@
   color: $white;
   & .container_l{
     & .phone_number{
-      & i{
-        font-size: $iconS;
-      }
       & .calling{
         font-size: $parXs;
       }
     }
-    & .socials_list{
-      & ul{
-        & i{
-          font-size: $iconS;
-        }
-      }
+    & i{
+      font-size: $iconS;
     }
   }
 }

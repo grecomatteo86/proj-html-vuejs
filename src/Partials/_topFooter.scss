@@ -2,9 +2,36 @@
   background-color: $white;
   border-top: 10px solid $mainA;
   & .container_l{
-    background-color: coral;
     & .box{
-      border: 1px solid black;
+      & .par_mage{
+        justify-content: space-between;
+        flex-basis: 100%;
+      }
+      & h4{
+        text-transform: $txt_Trsf;
+        font-size: $titleXs;
+        flex-basis: 30px;
+      }
+      & p{
+        font-size: $parXs;
+      }
+      & .logo{
+        width: 150px;
+        height: 60px;
+        & img{
+          width: 70%;
+          height: 70%;
+          align-content: flex-end;
+        }
+      }
+
+      & li{
+        flex-basis: 30px;
+      }
+      & i{
+        font-size: $iconXs;
+        color: $black;
+      }
     }
   }
 }

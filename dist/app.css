@@ -12,6 +12,10 @@ body {
   text-align: center;
 }
 
+p {
+  line-height: 20px;
+}
+
 button {
   background-color: #1975c0;
   border: none;
@@ -33,6 +37,7 @@ button:focus {
 
 li {
   list-style: none;
+  font-size: 10px;
 }
 
 i {
@@ -42,6 +47,7 @@ i {
 a {
   text-decoration: none;
   color: #000;
+  text-transform: capitalize;
 }
 
 .container_l {
@@ -58,20 +64,20 @@ a {
   display: flex;
 }
 .container_l .box {
+  display: flex;
+  flex-direction: column;
   flex-basis: 33.3%;
+  margin: 40px 0;
 }
 
 .top_nav_bar {
   background-color: #69bf14;
   color: #fff;
 }
-.top_nav_bar .container_l .phone_number i {
-  font-size: 11px;
-}
 .top_nav_bar .container_l .phone_number .calling {
   font-size: 10px;
 }
-.top_nav_bar .container_l .socials_list ul i {
+.top_nav_bar .container_l i {
   font-size: 11px;
 }
 
@@ -84,7 +90,6 @@ a {
   height: 70%;
 }
 .bottom_nav_bar .menu li {
-  font-size: 10px;
   font-weight: 600;
 }
 
@@ -132,11 +137,37 @@ a {
   background-color: #fff;
   border-top: 10px solid #69bf14;
 }
-.top_footer .container_l {
-  background-color: coral;
+.top_footer .container_l .box .par_mage {
+  justify-content: space-between;
+  flex-basis: 100%;
 }
-.top_footer .container_l .box {
-  border: 1px solid black;
+.top_footer .container_l .box h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  flex-basis: 30px;
+}
+.top_footer .container_l .box p {
+  font-size: 10px;
+}
+.top_footer .container_l .box .logo {
+  width: 150px;
+  height: 60px;
+}
+.top_footer .container_l .box .logo img {
+  width: 70%;
+  height: 70%;
+  align-content: flex-end;
+}
+.top_footer .container_l .box li {
+  flex-basis: 30px;
+}
+.top_footer .container_l .box i {
+  font-size: 8px;
+  color: #000;
+}
+
+.bottom_footer {
+  background-color: #69bf14;
 }
 
 .mt-1 {
@@ -514,4 +545,9 @@ a {
 .flex_al {
   display: flex;
   align-items: center;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
 }

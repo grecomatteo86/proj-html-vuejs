@@ -8,9 +8,13 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
 // Typo
 .txt_center{
   text-align: center;
+}
+p{
+  line-height: $heightM;
 }
 // /Typo
 // Style
@@ -35,6 +39,7 @@ button:focus {
 // No Dots on <li>
 li{
   list-style: none;
+  font-size: $parXs;
 }
 // Icons Color
 i{
@@ -43,4 +48,5 @@ i{
 a{
   text-decoration: none;
   color: $black;
+  text-transform: $txtCap;
 }
