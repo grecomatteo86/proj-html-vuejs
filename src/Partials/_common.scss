@@ -35,6 +35,7 @@ button{
   min-width: 100px;
   letter-spacing: $spacingM;
   text-transform: $txt_Trsf;
+  cursor: pointer;
 }
 button:focus {
   outline: none;
@@ -47,4 +48,8 @@ li{
 // Icons Color
 i{
   color: $white;
+}
+a{
+  text-decoration: none;
+  color: $black;
 }

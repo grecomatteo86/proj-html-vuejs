@@ -33,6 +33,7 @@ button {
   min-width: 100px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 button:focus {
@@ -46,6 +47,11 @@ li {
 
 i {
   color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .top_nav_bar {
