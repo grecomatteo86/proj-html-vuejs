@@ -8,16 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container_l {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.container_m {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
 .txt_center {
   text-align: center;
 }
@@ -54,6 +44,23 @@ a {
   color: #000;
 }
 
+.container_l {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container_m {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container_l {
+  display: flex;
+}
+.container_l .box {
+  flex-basis: 33.3%;
+}
+
 .top_nav_bar {
   background-color: #69bf14;
   color: #fff;
@@ -84,7 +91,7 @@ a {
 .hero_wrapper {
   height: 500px;
   position: relative;
-  background-image: url("https://avada.theme-fusion.com/movers/wp-content/uploads/sites/108/2018/06/avada-movers-homeherobackground-final.jpg");
+  background-image: url("../img/herobackground.jpg");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
@@ -119,6 +126,17 @@ a {
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.top_footer {
+  background-color: #fff;
+  border-top: 10px solid #69bf14;
+}
+.top_footer .container_l {
+  background-color: coral;
+}
+.top_footer .container_l .box {
+  border: 1px solid black;
 }
 
 .mt-1 {

@@ -1,10 +1,14 @@
 @import "Partials/variables";
 @import "Partials/common";
+@import "Partials/structures";
 // header_section
 @import "Partials/topNavBar";
 @import "Partials/bottomNavBar";
 @import "Partials/hero";
 @import "Partials/ctaSection";
 // /header_section
+// footer
+@import "Partials/topFooter";
+// /footer
 @import "Partials/paddingMargin";
 @import "Partials/displayFlex";

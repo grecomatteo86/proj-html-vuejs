@@ -1,0 +1,10 @@
+.top_footer{
+  background-color: $white;
+  border-top: 10px solid $mainA;
+  & .container_l{
+    background-color: coral;
+    & .box{
+      border: 1px solid black;
+    }
+  }
+}
