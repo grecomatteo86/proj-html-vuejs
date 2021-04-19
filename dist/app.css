@@ -67,8 +67,8 @@ i {
   height: 60px;
 }
 .bottom_nav_bar .logo img {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
 }
 .bottom_nav_bar .menu li {
   font-size: 10px;
@@ -77,16 +77,21 @@ i {
 
 .hero_wrapper {
   height: 500px;
+  position: relative;
+  background-color: red;
 }
-.hero_wrapper .hero_section {
-  height: 100%;
+.hero_wrapper .container_m {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.hero_wrapper .hero_section .container_m h1 {
+.hero_wrapper .container_m h1 {
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
 }
-.hero_wrapper .hero_section .container_m p {
+.hero_wrapper .container_m p {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 600;

@@ -1,19 +1,23 @@
 .hero_wrapper{
   height: 500px;
-  & .hero_section{
-    height: 100%;
-    & .container_m{
-      & h1{
-        font-size: $titleL;
-        font-weight: $weightL;
-        text-transform: $txt_Trsf;
-      }
-      & p{
-        text-transform: $txt_Trsf;
-        font-size: $parXs;
-        font-weight: $weightM;
-        color: $gray400;
-      }
+  position: relative;
+  background-color: red;
+  & .container_m{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    & h1{
+      font-size: $titleL;
+      font-weight: $weightL;
+      text-transform: $txt_Trsf;
+    }
+    & p{
+      text-transform: $txt_Trsf;
+      font-size: $parXs;
+      font-weight: $weightM;
+      color: $gray400;
     }
   }
+
 }
