@@ -84,7 +84,10 @@ a {
 .hero_wrapper {
   height: 500px;
   position: relative;
-  background-color: lightgray;
+  background-image: url("https://avada.theme-fusion.com/movers/wp-content/uploads/sites/108/2018/06/avada-movers-homeherobackground-final.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
 }
 .hero_wrapper .container_m {
   position: absolute;
