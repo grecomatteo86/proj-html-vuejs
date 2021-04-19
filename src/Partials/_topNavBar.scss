@@ -1,0 +1,32 @@
+.top_nav_bar{
+  background-color: $mainA;
+  color: $white;
+  & .container_l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .phone_number{
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & i{
+        font-size: $iconS;
+      }
+      & .calling{
+        font-size: $parXs;
+      }
+    }
+    & .socials_list{
+      background-color: blue;
+      & ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & i{
+          font-size: $iconS;
+        }
+      }
+    }
+  }
+}

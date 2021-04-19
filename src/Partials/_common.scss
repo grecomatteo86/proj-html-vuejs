@@ -1,0 +1,22 @@
+// Containers
+.container_l{
+  background-color: lightgray;
+  max-width: 900px;
+  margin: 0 auto;
+}
+// Padding Top
+@for $i from 1 through 15 { .pt-#{$i} {
+padding-top: 5px * $i; }
+}
+// Padding Bottom
+@for $i from 1 through 15 { .pb-#{$i} {
+padding-bottom: 5px * $i; }
+}
+// No Dots on <li>
+li{
+  list-style: none;
+}
+// Icons Color
+i{
+  color: $white;
+}
