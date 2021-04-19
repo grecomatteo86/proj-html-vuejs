@@ -6,7 +6,6 @@
     justify-content: space-between;
     align-items: center;
     & .phone_number{
-      background-color: red;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,7 +17,6 @@
       }
     }
     & .socials_list{
-      background-color: blue;
       & ul{
         display: flex;
         justify-content: center;
