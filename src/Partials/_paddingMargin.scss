@@ -1,0 +1,24 @@
+// Margin Top
+@for $i from 1 through 15 { .mt-#{$i} {
+margin-top: 5px * $i; }
+}
+// Margin Right
+@for $i from 1 through 15 { .mr-#{$i} {
+margin-right: 5px * $i; }
+}
+// Margin Bottom
+@for $i from 1 through 15 { .mb-#{$i} {
+margin-bottom: 5px * $i; }
+}
+// Margin Left
+@for $i from 1 through 15 { .ml-#{$i} {
+margin-left: 5px * $i; }
+}
+// Padding Top
+@for $i from 1 through 15 { .pt-#{$i} {
+padding-top: 5px * $i; }
+}
+// Padding Bottom
+@for $i from 1 through 15 { .pb-#{$i} {
+padding-bottom: 5px * $i; }
+}

@@ -13,6 +13,16 @@ body{
   max-width: 900px;
   margin: 0 auto;
 }
+.container_m{
+  max-width: 500px;
+  margin: 0 auto;
+}
+// Typo
+.txt_center{
+  text-align: center;
+}
+// /Typo
+// Style
 // 4 Every Button
 button{
   background-color: $mainB;
@@ -21,49 +31,14 @@ button{
   font-size: $parXxs;
   font-weight: 700;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: $radiusM;
   min-width: 100px;
-  letter-spacing: 1px;
+  letter-spacing: $spacingM;
+  text-transform: $txt_Trsf;
 }
 button:focus {
   outline: none;
   box-shadow: none;
-}
-// Display Flex 4 Nav Bars
-.nav_Flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-// Normal Display Flex
-.flex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-// Margin Top
-@for $i from 1 through 15 { .mt-#{$i} {
-margin-top: 5px * $i; }
-}
-// Margin Right
-@for $i from 1 through 15 { .mr-#{$i} {
-margin-right: 5px * $i; }
-}
-// Margin Bottom
-@for $i from 1 through 15 { .mb-#{$i} {
-margin-bottom: 5px * $i; }
-}
-// Margin Left
-@for $i from 1 through 15 { .ml-#{$i} {
-margin-left: 5px * $i; }
-}
-// Padding Top
-@for $i from 1 through 15 { .pt-#{$i} {
-padding-top: 5px * $i; }
-}
-// Padding Bottom
-@for $i from 1 through 15 { .pb-#{$i} {
-padding-bottom: 5px * $i; }
 }
 // No Dots on <li>
 li{

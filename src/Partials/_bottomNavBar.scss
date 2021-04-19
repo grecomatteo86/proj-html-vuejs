@@ -1,21 +1,16 @@
 .bottom_nav_bar{
-  background-color: red;
   & .logo{
-    background-color: yellow;
     width: 150px;
     height: 60px;
-    display: flex;
-    align-items: center;
     & img{
       width: 80%;
       height: 80%;
     }
   }
   & .menu{
-    background-color: orange;
     & li{
       font-size: $parXs;
-      font-weight: 600;
+      font-weight: $weightM;
     }
   }
 }

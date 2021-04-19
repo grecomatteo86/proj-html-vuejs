@@ -1,0 +1,17 @@
+// Display Flex 4 Nav Bars
+.nav_Flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// Normal Display Flex
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// Display Flex with only Align Items
+.flex_al{
+  display: flex;
+  align-items: center;
+}
