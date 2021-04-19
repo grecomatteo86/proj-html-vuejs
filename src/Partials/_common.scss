@@ -13,6 +13,34 @@ body{
   max-width: 900px;
   margin: 0 auto;
 }
+// 4 Every Button
+button{
+  background-color: $mainB;
+  border: none;
+  color: $white;
+  font-size: $parXxs;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 15px;
+  min-width: 100px;
+  letter-spacing: 1px;
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+// Display Flex 4 Nav Bars
+.nav_Flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// Normal Display Flex
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 // Margin Top
 @for $i from 1 through 15 { .mt-#{$i} {
 margin-top: 5px * $i; }

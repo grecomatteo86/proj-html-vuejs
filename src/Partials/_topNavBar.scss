@@ -2,13 +2,7 @@
   background-color: $mainA;
   color: $white;
   & .container_l{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     & .phone_number{
-      display: flex;
-      justify-content: center;
-      align-items: center;
       & i{
         font-size: $iconS;
       }
@@ -18,9 +12,6 @@
     }
     & .socials_list{
       & ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         & i{
           font-size: $iconS;
         }
