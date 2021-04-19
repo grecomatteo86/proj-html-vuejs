@@ -1,7 +1,8 @@
 .hero_wrapper{
   height: 500px;
   position: relative;
-  background-color: red;
+  background-color: lightgray;
+  // background-image: url('../img/herobackground.jpg');
   & .container_m{
     position: absolute;
     top:50%;

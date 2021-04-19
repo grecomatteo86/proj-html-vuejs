@@ -84,7 +84,7 @@ a {
 .hero_wrapper {
   height: 500px;
   position: relative;
-  background-color: red;
+  background-color: lightgray;
 }
 .hero_wrapper .container_m {
   position: absolute;
@@ -102,6 +102,20 @@ a {
   font-size: 10px;
   font-weight: 600;
   color: #6b6b6b;
+}
+
+.cta_section {
+  background-color: #1975c0;
+}
+.cta_section i {
+  font-size: 11px;
+}
+.cta_section p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .mt-1 {
