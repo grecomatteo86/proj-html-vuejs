@@ -79,6 +79,7 @@ a {
   font-size: 27px;
   text-transform: capitalize;
   font-weight: 800;
+  padding-bottom: 15px;
 }
 
 .mt-1 {
@@ -587,9 +588,6 @@ a {
 .main_section .flex_boxes {
   display: flex;
 }
-.main_section .section_title {
-  padding-bottom: 15px;
-}
 
 .first_section {
   background-color: coral;
@@ -600,6 +598,9 @@ a {
 }
 .second_section .box {
   border: 1px solid black;
+}
+.second_section .box img {
+  width: 100%;
 }
 
 .fourth_section {
