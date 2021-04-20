@@ -33,7 +33,7 @@
           </div>
           <div class="socials_list">
             <ul class="flex mt-1 mb-1">
-              <li v-for="item in icons"><a class="ml-2" href="#"><i :class="`fab fa-${item.icon}`"></i></a></li>
+              <li v-for="(item,index) in icons" v-if="index <= 3"><a class="ml-2" href="#"><i :class="`fab fa-${item.icon}`"></i></a></li>
               <!-- <li><a class="ml-2" href="#"><i class="fab fa-facebook-f"></i></a></li>
               <li><a class="ml-2" href="#"><i class="fab fa-twitter"></i></a></li>
               <li><a class="ml-2" href="#"><i class="fab fa-instagram"></i></a></li>
@@ -99,7 +99,7 @@
       <div class="second_section container_l pb-15">
         <p class="above_below_title">we are professional</p>
         <h2 class="section_title">full-service solution</h2>
-        <div class="flex_boxes">
+        <div class="flex_boxes pt-4">
           <div class="box">
             <img src="img/avada-movers-serviceonephoto-final-600x383.jpg" alt="logo_image">
             <h3 class="third_title">two man teams</h3>
