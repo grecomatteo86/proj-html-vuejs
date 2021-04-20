@@ -128,7 +128,7 @@
       <div class="bottom_footer">
         <div class="upper_sec">
           <ul class="flex pt-5">
-            <li v-for="item in credits" class="pr-2 mr-2"><a href="#"><i class="far fa-copyright pr-1"></i>{{item.title}}</a></li>
+            <li v-for="item in credits" class="pr-2 mr-2"><a href="#"><i v-show="item.title.includes('copiright')" class="far fa-copyright pr-1"></i>{{item.title}}</a></li>
             <!-- <li class="pr-2 mr-2"><a href="#"><i class="far fa-copyright pr-1"></i>copiright 2012 - 2020</a></li>
             <li class="pr-2 mr-2"><a href="#">avada theme by theme fusion</a></li>
             <li class="pr-2 mr-2"><a href="#">all rights reserved</a></li>
