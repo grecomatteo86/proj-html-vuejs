@@ -588,6 +588,9 @@ a {
 .main_section .flex_boxes {
   display: flex;
 }
+.main_section img {
+  width: 100%;
+}
 
 .first_section {
   background-color: coral;
@@ -598,9 +601,6 @@ a {
 }
 .second_section .box {
   border: 1px solid black;
-}
-.second_section .box img {
-  width: 100%;
 }
 
 .fourth_section {
