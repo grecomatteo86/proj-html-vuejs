@@ -1,6 +1,12 @@
 .fourth_section{
   background: lightgreen;
   & .box{
-    border: 1px solid black;
+    & img{
+      border-radius: 50%;
+      width: 40%;
+    }
+    & p{
+      font-style: $italic;
+    }
   }
 }

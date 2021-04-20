@@ -683,8 +683,12 @@ a {
 .fourth_section {
   background: lightgreen;
 }
-.fourth_section .box {
-  border: 1px solid black;
+.fourth_section .box img {
+  border-radius: 50%;
+  width: 40%;
+}
+.fourth_section .box p {
+  font-style: italic;
 }
 
 .fifth_section {
