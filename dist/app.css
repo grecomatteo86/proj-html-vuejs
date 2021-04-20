@@ -169,6 +169,13 @@ a {
 .bottom_footer {
   background-color: #69bf14;
 }
+.bottom_footer .upper_sec li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.bottom_footer .upper_sec a {
+  color: #fff;
+  font-size: 8px;
+}
 
 .mt-1 {
   margin-top: 5px;
@@ -468,6 +475,66 @@ a {
 
 .pt-15 {
   padding-top: 75px;
+}
+
+.pr-1 {
+  padding-right: 5px;
+}
+
+.pr-2 {
+  padding-right: 10px;
+}
+
+.pr-3 {
+  padding-right: 15px;
+}
+
+.pr-4 {
+  padding-right: 20px;
+}
+
+.pr-5 {
+  padding-right: 25px;
+}
+
+.pr-6 {
+  padding-right: 30px;
+}
+
+.pr-7 {
+  padding-right: 35px;
+}
+
+.pr-8 {
+  padding-right: 40px;
+}
+
+.pr-9 {
+  padding-right: 45px;
+}
+
+.pr-10 {
+  padding-right: 50px;
+}
+
+.pr-11 {
+  padding-right: 55px;
+}
+
+.pr-12 {
+  padding-right: 60px;
+}
+
+.pr-13 {
+  padding-right: 65px;
+}
+
+.pr-14 {
+  padding-right: 70px;
+}
+
+.pr-15 {
+  padding-right: 75px;
 }
 
 .pb-1 {
