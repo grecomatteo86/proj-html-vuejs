@@ -1,3 +1,6 @@
 .fourth_section{
   background: lightgreen;
+  & .box{
+    border: 1px solid black;
+  }
 }

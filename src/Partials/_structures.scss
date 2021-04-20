@@ -1,15 +1,14 @@
 // Containers
-.container_l{
-  max-width: 900px;
-  margin: 0 auto;
-}
 .container_m{
   max-width: 500px;
   margin: 0 auto;
 }
+.container_l{
+  max-width: 900px;
+  margin: 0 auto;
+}
 // Box Structure
 .container_l{
-  display: flex;
   & .box{
     display: flex;
     flex-direction: column;

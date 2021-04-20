@@ -1,0 +1,8 @@
+.main_section{
+  & .above_below_title{
+    color: $gray300;
+  }
+  & .flex_boxes{
+    display: flex;
+  }
+}
