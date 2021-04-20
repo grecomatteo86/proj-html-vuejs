@@ -1,3 +1,6 @@
 .fifth_section{
   background-color: pink;
+  & .section_title{
+    padding: 80px 0 10px;
+  }
 }

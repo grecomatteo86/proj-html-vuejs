@@ -75,6 +75,13 @@ a {
   font-weight: 600;
 }
 
+.section_title {
+  color: #69bf14;
+  font-size: 27px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
 .mt-1 {
   margin-top: 5px;
 }
@@ -576,6 +583,7 @@ a {
 
 .main_section .above_below_title {
   color: #afaeae;
+  padding: 80px 0 10px;
 }
 .main_section .flex_boxes {
   display: flex;
@@ -601,6 +609,9 @@ a {
 
 .fifth_section {
   background-color: pink;
+}
+.fifth_section .section_title {
+  padding: 80px 0 10px;
 }
 
 .top_footer {
