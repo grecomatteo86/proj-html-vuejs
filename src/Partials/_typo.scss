@@ -2,7 +2,7 @@
 .txt_center{
   text-align: center;
 }
-// 4 Paraghraphs
+// Paraghraphs
 .smooth_par{
   line-height: $heightM;
   font-size: $parXs;
@@ -13,11 +13,17 @@
   font-size: $parXs;
   font-weight: $weightM;
 }
-// 4 h2's
+// h2's
 .section_title{
   color: $mainA;
   font-size: $titleH2;
   text-transform: $txtCap;
   font-weight: $weightL;
   padding-bottom: 15px;
+}
+// h3's
+.third_title{
+  color:$mainB;
+  text-transform: $txtCap;
+  font-size: $titleH3;
 }

@@ -82,6 +82,12 @@ a {
   padding-bottom: 15px;
 }
 
+.third_title {
+  color: #1975c0;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
 .mt-1 {
   margin-top: 5px;
 }
