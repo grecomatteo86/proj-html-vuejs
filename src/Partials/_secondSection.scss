@@ -1,6 +1,12 @@
 .second_section{
   background-color: yellow;
   & .box{
-    border: 1px solid black;
+    border: 15px solid $gray200;
+    & img {
+      border-bottom: 15px solid $gray200;
+    }
+    & button{
+      width: 80px;
+    }
   }
 }

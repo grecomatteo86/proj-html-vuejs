@@ -5,8 +5,15 @@
   }
   & .flex_boxes{
     display: flex;
+    justify-content: space-between;
+    & .box{
+      flex-basis: 30%;
+    }
   }
   & img{
     width: 100%;
+  }
+  & button{
+    margin: 20px 0;
   }
 }
