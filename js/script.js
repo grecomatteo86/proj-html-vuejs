@@ -2,7 +2,7 @@ var app = new Vue (
   {
     el : '#app',
     data :{
-      bottomNavLinks:[
+      avadaLinks:[
         {
           title:'home',
           link:'#'
@@ -26,7 +26,33 @@ var app = new Vue (
         {
           title:'contact',
           link:'#'
+        },
+        {
+          title:'free quote',
+          link:'#'
         }
+      ],
+      recentPost:[
+        {
+          title:'',
+          link:'#'
+        },
+        {
+          title:'',
+          link:'#'
+        },
+        {
+          title:'',
+          link:'#'
+        },
+        {
+          title:'',
+          link:'#'
+        },
+        {
+          title:'',
+          link:'#'
+        },
       ]
     }
   }
