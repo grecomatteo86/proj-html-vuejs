@@ -21,7 +21,7 @@
 </head>
 <body>
   <!-- wrapper -->
-  <div class="wrapper">
+  <div id="app" class="wrapper">
     <!-- header -->
     <header class="header_section">
       <!-- top_nav_bar -->
@@ -53,12 +53,13 @@
           <div class="menu flex">
             <!-- links -->
             <ul class="flex">
-              <li class="ml-6"><a href="#">home</a></li>
+              <li class="ml-6" v-for="item in bottomNavLinks"><a href="#">{{item.title}}</a></li>
+              <!-- <li class="ml-6"><a href="#">home</a></li>
               <li class="ml-6"><a href="#">raters</a></li>
               <li class="ml-6"><a href="#">testimonials</a></li>
               <li class="ml-6"><a href="#">FAQ</a></li>
               <li class="ml-6"><a href="#">blog</a></li>
-              <li class="ml-6"><a href="#">contact</a></li>
+              <li class="ml-6"><a href="#">contact</a></li> -->
             </ul>
             <button class="ml-6" type="button" name="button">free quote</button>
             <!-- /links -->
