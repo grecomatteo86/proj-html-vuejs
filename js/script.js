@@ -71,6 +71,28 @@ var app = new Vue (
           title:'powered by word press',
           link:'#'
         }
+      ],
+      icons:[
+        {
+          icon:'facebook-f',
+          link:'#'
+        },
+        {
+          icon:'twitter',
+          link:'#'
+        },
+        {
+          icon:'instagram',
+          link:'#'
+        },
+        {
+          icon:'youtube',
+          link:'#'
+        },
+        {
+          icon:'copyright',
+          link:'#'
+        },
       ]
     }
   }
