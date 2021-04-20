@@ -53,6 +53,24 @@ var app = new Vue (
           title:'best moving tips',
           link:'#'
         }
+      ],
+      credits:[
+        {
+          title:'copiright 2012 - 2020',
+          link:'#'
+        },
+        {
+          title:'avada theme by theme fusion',
+          link:'#'
+        },
+        {
+          title:'all rights reserved',
+          link:'#'
+        },
+        {
+          title:'powered by word press',
+          link:'#'
+        }
       ]
     }
   }
