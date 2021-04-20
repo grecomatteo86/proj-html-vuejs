@@ -34,25 +34,25 @@ var app = new Vue (
       ],
       recentPost:[
         {
-          title:'',
+          title:'heading out to collage?',
           link:'#'
         },
         {
-          title:'',
+          title:'moving your business?',
           link:'#'
         },
         {
-          title:'',
+          title:'outstanding quality',
           link:'#'
         },
         {
-          title:'',
+          title:'cost of moving',
           link:'#'
         },
         {
-          title:'',
+          title:'best moving tips',
           link:'#'
-        },
+        }
       ]
     }
   }
