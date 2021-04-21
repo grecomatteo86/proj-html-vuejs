@@ -1,3 +1,4 @@
+// Top Footer
 .top_footer{
   background-color: $white;
   border-top: 10px solid $mainA;
@@ -27,4 +28,8 @@
       }
     }
   }
+}
+// Bottom Footer
+.bottom_footer{
+  background-color: $mainA;
 }
