@@ -1,14 +1,7 @@
 .top_nav_bar{
   background-color: $mainA;
-  color: $white;
-  & .container_l{
-    & .phone_number{
-      & .calling{
-        font-size: $parXs;
-      }
-    }
-    & i{
-      font-size: $iconS;
-    }
+  & .calling{
+    color: $white;
+    font-size: $parXs;
   }
 }

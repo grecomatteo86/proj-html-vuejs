@@ -22,13 +22,8 @@
           align-content: flex-end;
         }
       }
-
       & li{
         flex-basis: 30px;
-      }
-      & i{
-        font-size: $iconXs;
-        color: $black;
       }
     }
   }

@@ -8,39 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-button {
-  background-color: #1975c0;
-  border: none;
-  color: #fff;
-  font-size: 8px;
-  font-weight: 700;
-  padding: 10px;
-  border-radius: 15px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-button:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-li {
-  list-style: none;
-  font-size: 10px;
-}
-
-i {
-  color: #fff;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-  text-transform: capitalize;
-}
-
 .container_m {
   max-width: 500px;
   margin: 0 auto;
@@ -1551,15 +1518,78 @@ a {
   flex-direction: column;
 }
 
-.top_nav_bar {
-  background-color: #69bf14;
+button {
+  background-color: #1975c0;
+  border: none;
   color: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-.top_nav_bar .container_l .phone_number .calling {
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.main_section button {
+  margin: 20px 0;
+}
+
+li {
+  list-style: none;
   font-size: 10px;
 }
-.top_nav_bar .container_l i {
+
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.bottom_nav_bar li {
+  font-weight: 600;
+}
+
+.bottom_footer .upper_sec a {
+  color: #fff;
+  font-size: 8px;
+}
+.bottom_footer .upper_sec li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+i {
+  color: #fff;
+}
+
+.top_nav_bar i {
   font-size: 11px;
+}
+
+.cta_section i {
+  font-size: 11px;
+}
+
+.top_footer i {
+  font-size: 8px;
+  color: #000;
+}
+
+.bottom_footer .lower_sec i {
+  font-size: 13px;
+}
+
+.top_nav_bar {
+  background-color: #69bf14;
+}
+.top_nav_bar .calling {
+  color: #fff;
+  font-size: 10px;
 }
 
 .bottom_nav_bar .logo {
@@ -1569,9 +1599,6 @@ a {
 .bottom_nav_bar .logo img {
   width: 70%;
   height: 70%;
-}
-.bottom_nav_bar .menu li {
-  font-weight: 600;
 }
 
 .hero_wrapper {
@@ -1597,9 +1624,6 @@ a {
 .cta_section {
   background-color: #1975c0;
 }
-.cta_section i {
-  font-size: 11px;
-}
 .cta_section p {
   text-transform: uppercase;
   color: #fff;
@@ -1620,9 +1644,6 @@ a {
 }
 .main_section img {
   width: 100%;
-}
-.main_section button {
-  margin: 20px 0;
 }
 
 .professionals_section .box {
@@ -1704,21 +1725,7 @@ a {
 .top_footer .container_l .box li {
   flex-basis: 30px;
 }
-.top_footer .container_l .box i {
-  font-size: 8px;
-  color: #000;
-}
 
 .bottom_footer {
   background-color: #69bf14;
-}
-.bottom_footer .upper_sec li:not(:last-child) {
-  border-right: 1px solid #fff;
-}
-.bottom_footer .upper_sec a {
-  color: #fff;
-  font-size: 8px;
-}
-.bottom_footer .lower_sec i {
-  font-size: 13px;
 }

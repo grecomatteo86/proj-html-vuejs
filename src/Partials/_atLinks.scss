@@ -1,0 +1,29 @@
+// Rules for Links in general
+li{
+  list-style: none;
+  font-size: $parXs;
+}
+// General Rules for Links (taken only from bottom_nav_bar and top_footer links)
+a{
+  text-decoration: none;
+  color: $black;
+  text-transform: $txtCap;
+}
+// Specific Rules for Links in bottom_nav_bar
+.bottom_nav_bar{
+  & li{
+    font-weight: $weightM;
+  }
+}
+// Specific Rules for Links in bottom_footer
+.bottom_footer{
+  & .upper_sec{
+    & a{
+      color: $white;
+      font-size: $parXxs;
+    }
+    & li:not(:last-child){
+      border-right: 1px solid $white;
+    }
+  }
+}

@@ -4,39 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-// /Reset
+// Font Family
 body{
   font-family: 'Roboto', sans-serif;
-}
-// Style
-// 4 Every Button
-button{
-  background-color: $mainB;
-  border: none;
-  color: $white;
-  font-size: $parXxs;
-  font-weight: 700;
-  padding: 10px;
-  border-radius: $radiusM;
-  letter-spacing: $spacingM;
-  text-transform: $txt_Trsf;
-  cursor: pointer;
-}
-button:focus {
-  outline: none;
-  box-shadow: none;
-}
-// No Dots on <li>
-li{
-  list-style: none;
-  font-size: $parXs;
-}
-// Icons Color
-i{
-  color: $white;
-}
-a{
-  text-decoration: none;
-  color: $black;
-  text-transform: $txtCap;
 }
