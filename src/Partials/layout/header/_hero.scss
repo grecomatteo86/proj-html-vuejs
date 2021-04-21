@@ -1,15 +1,26 @@
 // Hero
-.hero_wrapper{
-  height: 600px;
+.header_section{
   position: relative;
-  background-image: url('../img/herobackground.jpg');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: cover;
-  & .container_m{
+  & .hero_wrapper{
+    height: 600px;
+    position: relative;
+    background-image: url('../img/herobackground.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    & .container_m{
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+  &::after{
+    background-color: $mainB;
+    width: 100vw;
+    height: 100px;
+    content: "";
     position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    bottom: 0;
   }
 }
