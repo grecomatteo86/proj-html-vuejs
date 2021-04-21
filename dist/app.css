@@ -1475,7 +1475,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -1537,11 +1537,11 @@ h1 {
 
 .bottom_nav_bar .logo {
   width: 150px;
-  height: 60px;
+  height: 70px;
 }
 .bottom_nav_bar .logo img {
-  width: 70%;
-  height: 70%;
+  width: 90%;
+  height: 90%;
 }
 .bottom_nav_bar li {
   font-weight: 600;
@@ -1551,7 +1551,7 @@ h1 {
 }
 
 .hero_wrapper {
-  height: 500px;
+  height: 600px;
   position: relative;
   background-image: url("../img/herobackground.jpg");
   background-repeat: no-repeat;
