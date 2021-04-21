@@ -1625,23 +1625,13 @@ a {
   margin: 20px 0;
 }
 
-.first_section_wrapper {
-  background: #fbfcfe;
-  background: linear-gradient(180deg, #fbfcfe 0%, #f1f5f8 100%);
-}
-
-.second_section .box {
+.professionals_section .box {
   border: 15px solid #e9e9e9;
 }
-.second_section .box img {
+.professionals_section .box img {
   border-bottom: 15px solid #e9e9e9;
 }
 
-.ease_section_wrapper {
-  background-image: url("../img/avada-movers-movewithease-background-new.jpg");
-  background-size: cover;
-  position: relative;
-}
 .ease_section_wrapper .container_m {
   position: absolute;
   top: 25%;
@@ -1658,19 +1648,31 @@ a {
   margin: auto;
 }
 
-.fourth_section_wrapper {
-  background-image: url("../img/avada-movers-testimonial-background.jpg");
-  background-size: cover;
-}
-.fourth_section_wrapper .box img {
+.testimonials_section_wrapper .box img {
   border-radius: 50%;
   width: 40%;
 }
-.fourth_section_wrapper .box p {
+.testimonials_section_wrapper .box p {
   font-style: italic;
 }
 
-.fifth_section_wrapper {
+.award_section_wrapper {
+  background: #fbfcfe;
+  background: linear-gradient(180deg, #fbfcfe 0%, #f1f5f8 100%);
+}
+
+.ease_section_wrapper {
+  background-image: url("../img/avada-movers-movewithease-background-new.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.testimonials_section_wrapper {
+  background-image: url("../img/avada-movers-testimonial-background.jpg");
+  background-size: cover;
+}
+
+.request_section_wrapper {
   background-image: url("../img/avada-movers-request-quote-background.jpg");
 }
 

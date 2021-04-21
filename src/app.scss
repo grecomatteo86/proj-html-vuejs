@@ -11,12 +11,9 @@
 @import "Partials/ctaSection";
 // /header_section
 // main_section
-@import "Partials/commonsMainSections";
-@import "Partials/firstSection";
-@import "Partials/secondSection";
-@import "Partials/easeSection";
-@import "Partials/fourthSection";
-@import "Partials/fifthSection";
+@import "Partials/mainCommon";
+@import "Partials/mainSpecifics";
+@import "Partials/mainBackgrounds";
 // /main_section
 // footer
 @import "Partials/topFooter";
