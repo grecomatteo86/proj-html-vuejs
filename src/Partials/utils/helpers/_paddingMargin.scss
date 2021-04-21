@@ -15,7 +15,7 @@ margin-bottom: 5px * $i; }
 margin-left: 5px * $i; }
 }
 // Padding Top
-@for $i from 1 through 60 { .pt-#{$i} {
+@for $i from 1 through 80 { .pt-#{$i} {
 padding-top: 5px * $i; }
 }
 // Padding Right
@@ -23,7 +23,7 @@ padding-top: 5px * $i; }
 padding-right: 5px * $i; }
 }
 // Padding Bottom
-@for $i from 1 through 60 { .pb-#{$i} {
+@for $i from 1 through 80 { .pb-#{$i} {
 padding-bottom: 5px * $i; }
 }
 // Padding Left
