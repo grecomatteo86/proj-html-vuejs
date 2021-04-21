@@ -1,0 +1,50 @@
+// Top Nav Bar
+.top_nav_bar{
+  background-color: $mainA;
+  & .calling{
+    color: $white;
+    font-size: $parXs;
+  }
+}
+// Bottom Nav Bar
+.bottom_nav_bar{
+  & .logo{
+    width: 150px;
+    height: 60px;
+    & img{
+      width: 70%;
+      height: 70%;
+    }
+  }
+}
+// Hero
+.hero_wrapper{
+  height: 500px;
+  position: relative;
+  background-image: url('../img/herobackground.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  & .container_m{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    & h1{
+      font-size: $titleL;
+      font-weight: $weightL;
+      text-transform: $txt_Trsf;
+    }
+  }
+}
+// Cta
+.cta_section{
+  background-color: $mainB;
+  & p{
+    text-transform: $txt_Trsf;
+    color:$white;
+    font-size: $parS;
+    font-weight: $weightS;
+    letter-spacing: $spacingM;
+  }
+}
