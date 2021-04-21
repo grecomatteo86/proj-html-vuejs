@@ -1660,7 +1660,7 @@ i {
   background-color: #69bf14;
   border: 12px solid #5ca323;
 }
-.ease_section_wrapper .container_m p, .ease_section_wrapper .container_m .section_title {
+.ease_section_wrapper .container_m .above_below_title, .ease_section_wrapper .container_m .section_title, .ease_section_wrapper .container_m .smooth_par {
   color: #fff;
 }
 .ease_section_wrapper .container_m .section_title {
