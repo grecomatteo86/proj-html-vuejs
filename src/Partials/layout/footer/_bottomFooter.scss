@@ -1,0 +1,18 @@
+// Bottom Footer
+.bottom_footer{
+  background-color: $mainA;
+  & .upper_sec{
+    & a{
+      color: $white;
+      font-size: $parXxs;
+    }
+    & li:not(:last-child){
+      border-right: 1px solid $white;
+    }
+  }
+  & .lower_sec{
+    & i{
+      font-size: $iconM;
+    }
+  }
+}

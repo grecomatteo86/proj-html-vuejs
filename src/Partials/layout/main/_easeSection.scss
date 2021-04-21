@@ -1,14 +1,8 @@
-// About Professionals Section
-.professionals_section{
-  & .box{
-    border: 15px solid $gray200;
-    & img {
-      border-bottom: 15px solid $gray200;
-    }
-  }
-}
 // About Ease Section
 .ease_section_wrapper{
+  background-image: url('../img/avada-movers-movewithease-background-new.jpg');
+  background-size:cover;
+  position: relative;
   & .container_m{
     position: absolute;
     top:25%;
@@ -22,18 +16,6 @@
       border-bottom: 1px solid $green200;
       width: 250px;
       margin: auto;
-    }
-  }
-}
-// About Testimonials Section
-.testimonials_section_wrapper{
-  & .box{
-    & img{
-      border-radius: 50%;
-      width: 40%;
-    }
-    & p{
-      font-style: $italic;
     }
   }
 }

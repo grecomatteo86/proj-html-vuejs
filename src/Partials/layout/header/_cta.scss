@@ -1,0 +1,14 @@
+// Cta
+.cta_section{
+  background-color: $mainB;
+  & i{
+    font-size: $iconS;
+  }
+  & p{
+    text-transform: $txt_Trsf;
+    color:$white;
+    font-size: $parS;
+    font-weight: $weightS;
+    letter-spacing: $spacingM;
+  }
+}

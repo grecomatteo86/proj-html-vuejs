@@ -1,0 +1,14 @@
+// Bottom Nav Bar
+.bottom_nav_bar{
+  & .logo{
+    width: 150px;
+    height: 60px;
+    & img{
+      width: 70%;
+      height: 70%;
+    }
+  }
+  & li{
+    font-weight: $weightM;
+  }
+}

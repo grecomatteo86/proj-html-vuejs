@@ -1,0 +1,10 @@
+// General Rules for Links
+li{
+  list-style: none;
+  font-size: $parXs;
+}
+a{
+  text-decoration: none;
+  color: $black;
+  text-transform: $txtCap;
+}

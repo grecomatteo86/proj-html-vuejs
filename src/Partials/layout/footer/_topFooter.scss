@@ -25,11 +25,11 @@
       }
       & li{
         flex-basis: 30px;
+        & i{
+          font-size: $iconXs;
+          color: $black;
+        }
       }
     }
   }
-}
-// Bottom Footer
-.bottom_footer{
-  background-color: $mainA;
 }

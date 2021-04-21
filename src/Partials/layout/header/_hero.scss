@@ -1,0 +1,15 @@
+// Hero
+.hero_wrapper{
+  height: 500px;
+  position: relative;
+  background-image: url('../img/herobackground.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  & .container_m{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

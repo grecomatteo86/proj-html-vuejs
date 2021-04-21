@@ -1,5 +1,5 @@
+// General Rules for all main
 .main_section{
-  // Common for all main
   & .above_below_title{
     color: $gray300;
   }
@@ -12,5 +12,8 @@
   }
   & img{
     width: 100%;
+  }
+  & button{
+    margin: 20px 0;
   }
 }

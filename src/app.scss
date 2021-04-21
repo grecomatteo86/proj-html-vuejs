@@ -1,20 +1,26 @@
-@import "Partials/variables";
-@import "Partials/common";
-@import "Partials/structures";
-@import "Partials/typo";
-@import "Partials/paddingMargin";
-@import "Partials/displayFlex";
-@import "Partials/buttons";
-@import "Partials/links";
-@import "Partials/icons";
-// header
-@import "Partials/header";
-// /header
-// main
-@import "Partials/mainCommon";
-@import "Partials/mainSpecifics";
-@import "Partials/mainBackgrounds";
-// /main
-// footer
-@import "Partials/footer";
-// /footer
+//Utils
+@import "Partials/utils/variables";
+@import "Partials/utils/helpers/mix";
+@import "Partials/utils/helpers/displayFlex";
+@import "Partials/utils/helpers/paddingMargin";
+//Base
+@import "Partials/base/reset";
+@import "Partials/base/typo";
+//Layout
+@import "Partials/layout/frameSystem";
+@import "Partials/layout/header/topNavBar";
+@import "Partials/layout/header/bottomNavBar";
+@import "Partials/layout/header/hero";
+@import "Partials/layout/header/cta";
+@import "Partials/layout/main/mainCommon";
+@import "Partials/layout/main/awardSection";
+@import "Partials/layout/main/professionalsSection";
+@import "Partials/layout/main/easeSection";
+@import "Partials/layout/main/testimonialsSection";
+@import "Partials/layout/main/requestSection";
+@import "Partials/layout/footer/topFooter";
+@import "Partials/layout/footer/bottomFooter";
+//Components
+@import "Partials/components/buttons";
+@import "Partials/components/icons";
+@import "Partials/components/links";

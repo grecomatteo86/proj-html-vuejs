@@ -1,0 +1,37 @@
+// Font Family
+body{
+  font-family: 'Roboto', sans-serif;
+}
+// General Rules for H1
+h1{
+  font-size: $titleL;
+  font-weight: $weightL;
+  text-transform: $txt_Trsf;
+}
+// General Rules for H2
+.section_title{
+  color: $mainA;
+  font-size: $titleH2;
+  text-transform: $txtCap;
+  font-weight: $weightL;
+  padding-bottom: 15px;
+}
+// General Rules for H3
+.third_title{
+  color:$mainB;
+  text-transform: $txtCap;
+  font-size: $titleH3;
+  margin: 20px 0;
+}
+// General Rules for H4
+.above_below_title{
+  color: $gray400;
+  text-transform: $txt_Trsf;
+  font-size: $parXs;
+  font-weight: $weightM;
+}
+// General Rules for Paraghraphs
+.smooth_par{
+  line-height: $heightM;
+  font-size: $parXs;
+}
