@@ -5,6 +5,9 @@
     & a{
       color: $white;
       font-size: $parXxs;
+      & i{
+        font-size: $iconXs;
+      }
     }
     & li:not(:last-child){
       border-right: 1px solid $white;

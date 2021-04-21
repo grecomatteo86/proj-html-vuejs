@@ -1528,7 +1528,7 @@ h1 {
   background-color: #69bf14;
 }
 .top_nav_bar i {
-  font-size: 11px;
+  font-size: 15px;
 }
 .top_nav_bar .calling {
   color: #fff;
@@ -1569,7 +1569,7 @@ h1 {
   background-color: #1975c0;
 }
 .cta_section i {
-  font-size: 11px;
+  font-size: 15px;
 }
 .cta_section p {
   text-transform: uppercase;
@@ -1674,7 +1674,7 @@ h1 {
   flex-basis: 30px;
 }
 .top_footer .container_l .box li i {
-  font-size: 8px;
+  font-size: 10px;
   color: #000;
 }
 .top_footer .container_l .box li a:hover {
@@ -1688,11 +1688,14 @@ h1 {
   color: #fff;
   font-size: 8px;
 }
+.bottom_footer .upper_sec a i {
+  font-size: 10px;
+}
 .bottom_footer .upper_sec li:not(:last-child) {
   border-right: 1px solid #fff;
 }
 .bottom_footer .lower_sec i {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 button {
