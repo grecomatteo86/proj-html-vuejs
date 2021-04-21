@@ -1546,6 +1546,9 @@ h1 {
 .bottom_nav_bar li {
   font-weight: 600;
 }
+.bottom_nav_bar li a:hover {
+  color: #69bf14;
+}
 
 .hero_wrapper {
   height: 500px;
@@ -1673,6 +1676,9 @@ h1 {
 .top_footer .container_l .box li i {
   font-size: 8px;
   color: #000;
+}
+.top_footer .container_l .box li a:hover {
+  color: #69bf14;
 }
 
 .bottom_footer {

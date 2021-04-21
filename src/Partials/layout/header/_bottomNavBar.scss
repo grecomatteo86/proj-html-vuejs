@@ -10,5 +10,8 @@
   }
   & li{
     font-weight: $weightM;
+    & a:hover{
+      color: #69bf14;
+    }
   }
 }
