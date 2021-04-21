@@ -11,4 +11,7 @@
       font-style: $italic;
     }
   }
+  & button{
+    min-width: 200px;
+  }
 }

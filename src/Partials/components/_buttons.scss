@@ -10,6 +10,7 @@ button{
   letter-spacing: $spacingM;
   text-transform: $txt_Trsf;
   cursor: pointer;
+  min-width: 120px;
 }
 button:focus {
   outline: none;
