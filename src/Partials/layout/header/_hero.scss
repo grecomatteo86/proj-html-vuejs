@@ -18,9 +18,18 @@
   &::after{
     background-color: $mainB;
     width: 100vw;
-    height: 100px;
-    content: "";
+    height: 120px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: $weightS;
+    content: "\f1d8 \00a0 \00a0 get a free quote online now!";
+    color:$white;
+    font-size: $parS;
+    letter-spacing: $spacingM;
+    text-transform: $txt_Trsf;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
