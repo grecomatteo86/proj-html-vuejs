@@ -1642,7 +1642,7 @@ h1 {
 }
 
 .section_title {
-  color: #69bf14;
+  color: #333333;
   font-size: 35px;
   text-transform: capitalize;
   font-weight: 800;
@@ -1686,7 +1686,7 @@ h1 {
 }
 
 .top_nav_bar {
-  background-color: #69bf14;
+  background-color: #333333;
 }
 .top_nav_bar i {
   font-size: 15px;
@@ -1782,7 +1782,7 @@ h1 {
   position: absolute;
   top: 25%;
   left: 50%;
-  background-color: #69bf14;
+  background-color: #333333;
   border: 12px solid #5ca323;
 }
 .ease_section_wrapper .container_m .above_below_title, .ease_section_wrapper .container_m .section_title, .ease_section_wrapper .container_m .smooth_par {
@@ -1818,7 +1818,7 @@ h1 {
 
 .top_footer {
   background-color: #fff;
-  border-top: 10px solid #69bf14;
+  border-top: 10px solid #333333;
 }
 .top_footer .container_l {
   display: flex;
@@ -1853,7 +1853,7 @@ h1 {
 }
 
 .bottom_footer {
-  background-color: #69bf14;
+  background-color: #333333;
 }
 .bottom_footer .upper_sec li:not(:last-child) {
   border-right: 1px solid #fff;
