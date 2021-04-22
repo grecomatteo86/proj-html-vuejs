@@ -6,3 +6,8 @@
   left: $left;
   position: absolute;
 }
+// Background Image Cover
+@mixin backgroundCover ($url){
+  background-image:url($url);
+  background-size: cover;
+}

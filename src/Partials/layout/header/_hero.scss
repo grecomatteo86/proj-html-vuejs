@@ -4,10 +4,9 @@
     position: relative;
     height: 600px;
     position: relative;
-    background-image: url('../img/herobackground.jpg');
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: cover;
+    @include backgroundCover('../img/herobackground.jpg');
+    // background-image: url('../img/herobackground.jpg');
+    // background-size: cover;
     .container_m{
       @include abs-pos(50%, auto, auto, 50%);
       // position: absolute;
