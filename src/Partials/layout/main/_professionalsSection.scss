@@ -1,8 +1,8 @@
 // About Professionals Section
 .professionals_section{
-  & .box{
+  .box{
     border: 10px solid $gray200;
-    & img {
+    img {
       width: 100%;
       border-bottom: 15px solid $gray200;
     }
