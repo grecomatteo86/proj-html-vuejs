@@ -1,14 +1,14 @@
 // Hero
 .header_section{
   position: relative;
-  & .hero_wrapper{
+  .hero_wrapper{
     height: 600px;
     position: relative;
     background-image: url('../img/herobackground.jpg');
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
-    & .container_m{
+    .container_m{
       position: absolute;
       top:50%;
       left: 50%;

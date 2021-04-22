@@ -1,10 +1,10 @@
 // Top Nav Bar
 .top_nav_bar{
   background-color: $mainA;
-  & i{
+  i{
     font-size: $iconS;
   }
-  & .calling{
+  .calling{
     color: $white;
     font-size: $parXs;
   }

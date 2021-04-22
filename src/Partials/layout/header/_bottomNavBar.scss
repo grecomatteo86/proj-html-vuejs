@@ -1,16 +1,16 @@
 // Bottom Nav Bar
 .bottom_nav_bar{
-  & .logo{
+  .logo{
     width: 150px;
     height: 70px;
-    & img{
+    img{
       width: 90%;
       height: 90%;
     }
   }
-  & li{
+  li{
     font-weight: $weightM;
-    & a:hover{
+    a:hover{
       color: #69bf14;
     }
   }
