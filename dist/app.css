@@ -1709,10 +1709,8 @@ h1 {
   color: #69bf14;
 }
 
-.header_section {
-  position: relative;
-}
 .header_section .hero_wrapper {
+  position: relative;
   height: 600px;
   position: relative;
   background-image: url("../img/herobackground.jpg");
@@ -1721,9 +1719,11 @@ h1 {
   background-size: cover;
 }
 .header_section .hero_wrapper .container_m {
-  position: absolute;
   top: 50%;
+  right: auto;
+  bottom: auto;
   left: 50%;
+  position: absolute;
   transform: translate(-50%, -50%);
 }
 .header_section::after {
@@ -1777,9 +1777,11 @@ h1 {
   position: relative;
 }
 .ease_section_wrapper .container_m {
-  position: absolute;
   top: 25%;
+  right: auto;
+  bottom: auto;
   left: 50%;
+  position: absolute;
   background-color: #333333;
   border: 12px solid #5ca323;
 }
