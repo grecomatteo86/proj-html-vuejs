@@ -1715,6 +1715,8 @@ h1 {
   position: relative;
   background-image: url("../img/herobackground.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .header_section .hero_wrapper .container_m {
   top: 50%;
@@ -1772,6 +1774,8 @@ h1 {
 .ease_section_wrapper {
   background-image: url("../img/avada-movers-movewithease-background-new.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 .ease_section_wrapper .container_m {
@@ -1798,6 +1802,8 @@ h1 {
 .testimonials_section_wrapper {
   background-image: url("../img/avada-movers-testimonial-background.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .testimonials_section_wrapper .box img {
   border-radius: 50%;
