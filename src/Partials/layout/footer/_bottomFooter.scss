@@ -1,20 +1,20 @@
 // Bottom Footer
 .bottom_footer{
   background-color: $mainA;
-  & .upper_sec{
-    & a{
+  .upper_sec{
+    li:not(:last-child){
+      border-right: 1px solid $white;
+    }
+    a{
       color: $white;
       font-size: $parXxs;
-      & i{
+      i{
         font-size: $iconXs;
       }
     }
-    & li:not(:last-child){
-      border-right: 1px solid $white;
-    }
   }
-  & .lower_sec{
-    & i{
+  .lower_sec{
+    i{
       font-size: $iconM;
     }
   }

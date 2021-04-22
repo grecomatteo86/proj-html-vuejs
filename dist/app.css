@@ -1828,20 +1828,20 @@ h1 {
 .top_footer .container_l {
   display: flex;
 }
-.top_footer .container_l .box .par_mage {
-  justify-content: space-between;
-  flex-basis: 100%;
-}
 .top_footer .container_l .box h4 {
   text-transform: uppercase;
   font-size: 14px;
   flex-basis: 30px;
 }
-.top_footer .container_l .box .logo {
+.top_footer .container_l .box .par_mage {
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+.top_footer .container_l .box .par_mage .logo {
   width: 150px;
   height: 60px;
 }
-.top_footer .container_l .box .logo img {
+.top_footer .container_l .box .par_mage .logo img {
   width: 70%;
   height: 70%;
   align-content: flex-end;
@@ -1860,15 +1860,15 @@ h1 {
 .bottom_footer {
   background-color: #69bf14;
 }
+.bottom_footer .upper_sec li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
 .bottom_footer .upper_sec a {
   color: #fff;
   font-size: 10px;
 }
 .bottom_footer .upper_sec a i {
   font-size: 10px;
-}
-.bottom_footer .upper_sec li:not(:last-child) {
-  border-right: 1px solid #fff;
 }
 .bottom_footer .lower_sec i {
   font-size: 18px;

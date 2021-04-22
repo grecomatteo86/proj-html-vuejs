@@ -2,34 +2,34 @@
 .top_footer{
   background-color: $white;
   border-top: 10px solid $mainA;
-  & .container_l{
+  .container_l{
     display: flex;
-    & .box{
-      & .par_mage{
-        justify-content: space-between;
-        flex-basis: 100%;
-      }
-      & h4{
+    .box{
+      h4{
         text-transform: $txt_Trsf;
         font-size: $parS;
         flex-basis: 30px;
       }
-      & .logo{
-        width: 150px;
-        height: 60px;
-        & img{
-          width: 70%;
-          height: 70%;
-          align-content: flex-end;
+      .par_mage{
+        justify-content: space-between;
+        flex-basis: 100%;
+        .logo{
+          width: 150px;
+          height: 60px;
+          img{
+            width: 70%;
+            height: 70%;
+            align-content: flex-end;
+          }
         }
       }
-      & li{
+      li{
         flex-basis: 30px;
-        & i{
+        i{
           font-size: $iconXs;
           color: $black;
         }
-        & a:hover{
+        a:hover{
           color: #69bf14;
         }
       }
