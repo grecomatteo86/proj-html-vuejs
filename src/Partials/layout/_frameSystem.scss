@@ -1,18 +1,17 @@
 // Containers
-.container_m{
-  max-width: 500px;
-  margin: 0 auto;
-}
-.container_l{
-  max-width: 900px;
-  margin: 0 auto;
-}
-// Box Structure
-.container_l{
-  & .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-basis: 33.3%;
+.container{
+  &_m{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  &_l{
+    max-width: 900px;
+    margin: 0 auto;
+    .box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-basis: 33.3%;
+    }
   }
 }

@@ -1672,12 +1672,10 @@ h1 {
   max-width: 500px;
   margin: 0 auto;
 }
-
 .container_l {
   max-width: 900px;
   margin: 0 auto;
 }
-
 .container_l .box {
   display: flex;
   flex-direction: column;
