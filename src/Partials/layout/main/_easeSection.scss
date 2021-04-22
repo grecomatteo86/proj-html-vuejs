@@ -1,6 +1,6 @@
 // About Ease Section
 .ease_section_wrapper{
-  @include backgroundCover ('../img/avada-movers-movewithease-background-new.jpg',cover,center,no-repeat);
+  @include backgroundImg ('../img/avada-movers-movewithease-background-new.jpg',cover,center,no-repeat);
   // background-image: url('../img/avada-movers-movewithease-background-new.jpg');
   // background-size:cover;
   position: relative;

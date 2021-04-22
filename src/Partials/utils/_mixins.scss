@@ -7,8 +7,7 @@
   position: absolute;
 }
 // Background Image
-
-@mixin backgroundCover ($url,$size,$position,$repeat){
+@mixin backgroundImg ($url,$size,$position,$repeat){
   background-image:url($url);
   background-size: $size;
   background-position: $position;

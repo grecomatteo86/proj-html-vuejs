@@ -1885,11 +1885,14 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   min-width: 120px;
+  transition: all 1s;
 }
-
 button:focus {
   outline: none;
   box-shadow: none;
+}
+button:hover {
+  transform: scale(1.1);
 }
 
 i {
