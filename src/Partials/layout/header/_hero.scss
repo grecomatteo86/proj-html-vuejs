@@ -4,7 +4,7 @@
     position: relative;
     height: 600px;
     position: relative;
-    @include backgroundCover('../img/herobackground.jpg');
+    @include backgroundCover('../img/herobackground.jpg',cover,center,no-repeat);
     // background-image: url('../img/herobackground.jpg');
     // background-size: cover;
     .container_m{

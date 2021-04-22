@@ -6,10 +6,11 @@
   left: $left;
   position: absolute;
 }
-// Background Image Cover
-@mixin backgroundCover ($url){
+// Background Image
+
+@mixin backgroundCover ($url,$size,$position,$repeat){
   background-image:url($url);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: $size;
+  background-position: $position;
+  background-repeat: $repeat;
 }
