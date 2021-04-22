@@ -3,6 +3,7 @@
   & .box{
     border: 10px solid $gray200;
     & img {
+      width: 100%;
       border-bottom: 15px solid $gray200;
     }
   }

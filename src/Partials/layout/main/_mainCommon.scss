@@ -1,19 +1,13 @@
 // General Rules for all main
 .main_section{
-  & .above_below_title{
+  .above_below_title{
     color: $gray300;
   }
-  & .flex_boxes{
+  .flex_boxes{
     display: flex;
     justify-content: space-between;
-    & .box{
+    .box{
       flex-basis: 32%;
     }
-  }
-  & img{
-    width: 100%;
-  }
-  & button{
-    margin: 20px 0;
   }
 }

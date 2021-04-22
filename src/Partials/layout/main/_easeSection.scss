@@ -3,21 +3,21 @@
   background-image: url('../img/avada-movers-movewithease-background-new.jpg');
   background-size:cover;
   position: relative;
-  & .container_m{
+  .container_m{
     position: absolute;
     top:25%;
     left: 50%;
     background-color: $mainA;
     border: 12px solid $green400;
-    & .above_below_title,.section_title,.smooth_par{
+    .above_below_title,.section_title,.smooth_par{
       color:$white;
     }
-    & .section_title{
+    .section_title{
       border-bottom: 1px solid $green200;
       width: 260px;
       margin: auto;
     }
-    & button{
+    button{
       min-width: 200px;
     }
   }
