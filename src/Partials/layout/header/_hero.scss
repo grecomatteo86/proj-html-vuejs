@@ -5,13 +5,8 @@
     height: 600px;
     position: relative;
     @include backgroundImg('../img/herobackground.jpg',cover,center,no-repeat);
-    // background-image: url('../img/herobackground.jpg');
-    // background-size: cover;
     .container_m{
       @include abs-pos(50%, auto, auto, 50%);
-      // position: absolute;
-      // top:50%;
-      // left: 50%;
       transform: translate(-50%,-50%);
     }
   }

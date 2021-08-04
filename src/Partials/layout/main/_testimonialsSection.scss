@@ -1,8 +1,6 @@
 // About Testimonials Section
 .testimonials_section_wrapper{
   @include backgroundImg ('../img/avada-movers-testimonial-background.jpg',cover,center,no-repeat);
-  // background-image: url('../img/avada-movers-testimonial-background.jpg');
-  // background-size: cover;
   .box{
     img{
       border-radius: 50%;
